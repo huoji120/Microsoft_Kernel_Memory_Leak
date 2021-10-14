@@ -123,8 +123,8 @@ test time: 2021/10/14
 
 ### Credit
 
-@[hfiref0x](https://github.com/hfiref0x) and [Windows NtCall Fuzz Tools][https://github.com/hfiref0x/NtCall64]
+@[hfiref0x](https://github.com/hfiref0x) and [Windows NtCall Fuzz Tools](https://github.com/hfiref0x/NtCall64)
 
-@[huoji][https://github.com/huoji120]
+@[huoji](https://github.com/huoji120)
 
-@[heromantf][https://github.com/heromantf]
+@[heromantf](https://github.com/heromantf)
