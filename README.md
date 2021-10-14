@@ -75,7 +75,7 @@ int main()
 
 ### win32kbase!NtDCompositionCommitSynchronizationObject
 
-This Leak Point was non patch in windows 21h1(Not sure if the new patch fixes it)
+This Leak Point was non patch in windows 21h1
 
 the full callstack:
 
@@ -109,15 +109,22 @@ in MSDN about "SeQueryInformationToken"
 
 well , it doesn't seem to have been released
 
-
-
 ### poc
 
-None Because of time,but you can reappearance it by NtCallFuzz tool in Credit
+pool memory in windbg:
+
+![](9.png)
+
+No more code because of time,but you can reappearance it by NtCallFuzz tool in Credit
+
+test time: 2021/10/14
+
+![](10.png)
 
 ### Credit
 
-@[huoji][https://github.com/huoji120]
-
 @[hfiref0x](https://github.com/hfiref0x) and [Windows NtCall Fuzz Tools][https://github.com/hfiref0x/NtCall64]
 
+@[huoji][https://github.com/huoji120]
+
+@[heromantf][https://github.com/heromantf]
